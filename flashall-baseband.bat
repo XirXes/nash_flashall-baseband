@@ -2,11 +2,11 @@ fastboot getvar max-sparse-size
 fastboot oem fb_mode_set
 fastboot flash partition gpt.bin
 fastboot flash bootloader bootloader.img
-fastboot flash modem NON-HLOS.bin
-fastboot flash fsg fsg.mbn
-fastboot flash bluetooth BTFM.bin
-fastboot flash dsp adspso.bin
-fastboot flash logo logo.bin
+fastboot flash modem_a NON-HLOS.bin
+fastboot flash fsg_a fsg.mbn
+fastboot flash bluetooth_a BTFM.bin
+fastboot flash dsp_a adspso.bin
+fastboot flash logo_a logo.bin
 fastboot flash xbl_b xbl.elf
 fastboot flash cmnlib_b cmnlib.mbn
 fastboot flash cmnlib64_b cmnlib64.mbn
